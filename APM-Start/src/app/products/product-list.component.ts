@@ -1,3 +1,4 @@
+import { IProduct } from './../../../../APM-Final/src/app/products/product';
 import { Component } from '@angular/core';
 
 @Component({
@@ -11,7 +12,7 @@ export class ProductListComponent {
     imageMargin: number = 2;
     showImage: boolean = false;
     listFilter: string = 'cart';
-    products: any[] = [
+    products: IProduct[] = [
         {
             "productId": 2,
             "productName": "Garden Cart",
