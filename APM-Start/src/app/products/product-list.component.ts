@@ -1,4 +1,4 @@
-import { IProduct } from './../../../../APM-Final/src/app/products/product';
+import { IProduct } from './product';
 import { Component, OnInit } from '@angular/core';
 
 @Component({

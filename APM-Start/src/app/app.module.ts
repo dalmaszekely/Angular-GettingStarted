@@ -1,4 +1,4 @@
-import { StarComponent } from './../../../APM-Final/src/app/shared/star.component';
+import { StarComponent } from './shared/star.component';
 import { FormsModule } from '@angular/forms';
 import { ProductListComponent } from './products/product-list.component';
 import { BrowserModule } from '@angular/platform-browser';
