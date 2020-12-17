@@ -1,3 +1,4 @@
+import { WelcomeComponent } from './home/welcome.component';
 import { HttpClientModule } from '@angular/common/http';
 import { StarComponent } from './shared/star.component';
 import { FormsModule } from '@angular/forms';
@@ -6,12 +7,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { ProductDetailComponent } from './products/product-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductListComponent,
-    StarComponent
+    StarComponent,
+    ProductDetailComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
