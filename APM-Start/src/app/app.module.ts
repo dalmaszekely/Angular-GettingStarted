@@ -1,3 +1,4 @@
+import { ConvertToSpacesPipe } from './shared/convert-to-spaces.pipe';
 import { ProductDetailGuard } from './products/product-detail.guard';
 import { RouterModule } from '@angular/router';
 import { WelcomeComponent } from './home/welcome.component';
@@ -10,11 +11,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ProductDetailComponent } from './products/product-detail.component';
+import { ProductModule } from './products/product.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductListComponent,
+    ConvertToSpacesPipe,
     StarComponent,
     ProductDetailComponent,
     WelcomeComponent
